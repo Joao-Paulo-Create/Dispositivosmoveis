@@ -18,7 +18,7 @@ function VisaoGeral() {
       screenOptions={({ navigation }) => ({
         headerRight: () => (
           <Pressable onPress={() => navigation.navigate('GerenciarDespesa')} style={{ marginRight: 16 }}>
-            <Text style={{ fontSize: 26, color: '#3e04c3' }}>+</Text>
+            <Text style={{ fontSize: 26, color: '#4e04c3' }}>+</Text>
           </Pressable>
         ),
       })}
